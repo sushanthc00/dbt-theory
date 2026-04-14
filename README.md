@@ -13,6 +13,8 @@
 | 3 | [03-workflow-and-cli.md](./03-workflow-and-cli.md) | Dev loop, CLI commands, profiles.yml, environment management |
 | 4 | [04-use-cases-and-ecosystem.md](./04-use-cases-and-ecosystem.md) | Data quality, lineage, modular modeling, modern data stack integration |
 | 5 | [05-interview-prep.md](./05-interview-prep.md) | Comprehensive interview Q&A — concepts, scenarios, coding challenges, rapid-fire |
+| 6 | [06-additional-topics.md](./06-additional-topics.md) | Python models, unit testing, dbt Mesh, model versioning, semantic layer, advanced patterns |
+| 7 | [07-snowflake-end-to-end.md](./07-snowflake-end-to-end.md) | Complete end-to-end guide: dbt + Snowflake from account setup to production |
 
 ---
 
@@ -48,5 +50,7 @@ dbt does not extract or load data. It assumes data is already in your warehouse.
 - Jump to **02** if you want the hands-on anatomy of every dbt component.
 - Use **03** as your daily CLI and workflow reference.
 - Consult **04** when architecting a new project or evaluating dbt's fit in your stack.
+- Read **06** for topics not covered in depth elsewhere: Python models, unit testing, dbt Mesh, semantic layer, and operational best practices.
+- Follow **07** as a complete walkthrough for building a production dbt project on Snowflake — from account setup through CI/CD and monitoring.
 
 Each document is self-contained but cross-references the others where relevant.
